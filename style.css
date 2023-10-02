@@ -1,0 +1,22 @@
+body{
+    font-style: italic;
+    font-family: gabriola;
+    font-weight: 800;
+   
+}
+/* Add custom CSS for your calendar here */
+#calendar {
+    max-width: 1200px;
+    height: 95vh;
+    margin: 0 auto;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: transparent; /* Set a background color for the calendar body */
+    background-image: url(https://wallpapers.com/images/featured/dark-5u7v1sbwoi6hdzsb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fc-day {
+    border: 5px solid blue; /* Add borders to the calendar boxes */
+    margin: 0px 0px 0px 5px;
